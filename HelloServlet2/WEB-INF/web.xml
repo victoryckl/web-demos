@@ -1,0 +1,11 @@
+<web-app>
+    <servlet>
+        <servlet-name>AnyName</servlet-name>
+        <servlet-class>HelloServlet</servlet-class>
+    </servlet>
+	
+	<servlet-mapping>
+        <servlet-name>AnyName</servlet-name>
+        <url-pattern>/hello2.html</url-pattern>
+    </servlet-mapping>
+</web-app>

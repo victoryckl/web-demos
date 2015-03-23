@@ -85,4 +85,25 @@
         <servlet-name>filetest</servlet-name>
         <url-pattern>/filetest</url-pattern>
     </servlet-mapping>
+	
+	<servlet>
+        <servlet-name>resource</servlet-name>
+        <servlet-class>ResourceServlet</servlet-class>
+    </servlet>
+	
+	<servlet-mapping>
+        <servlet-name>resource</servlet-name>
+        <url-pattern>/resource</url-pattern>
+    </servlet-mapping>
+	
+	
+	<servlet>
+        <servlet-name>other</servlet-name>
+        <servlet-class>OtherContextServlet</servlet-class>
+    </servlet>
+	
+	<servlet-mapping>
+        <servlet-name>other</servlet-name>
+        <url-pattern>/other</url-pattern>
+    </servlet-mapping>
 </web-app>

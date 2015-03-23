@@ -8,6 +8,44 @@
         <servlet-name>AnyName</servlet-name>
         <url-pattern>/hello2.html</url-pattern>
     </servlet-mapping>
+
+	<servlet>
+        <servlet-name>AnyName2</servlet-name>
+        <servlet-class>ThreadServlet</servlet-class>
+    </servlet>
+	
+	<servlet-mapping>
+        <servlet-name>AnyName2</servlet-name>
+        <url-pattern>/thread</url-pattern>
+    </servlet-mapping>
+
+	<servlet>
+		<servlet-name>ConfigTest</servlet-name>
+		<servlet-class>ConfigTestServlet</servlet-class>
+		<init-param>
+			<param-name>firstname</param-name>
+			<param-value>zhang</param-value>
+		</init-param>
+		<init-param>
+			<param-name>lastname</param-name>
+			<param-value>san</param-value>
+		</init-param>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>ConfigTest</servlet-name>
+		<url-pattern>/config</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+        <servlet-name>CacheTest</servlet-name>
+        <servlet-class>CacheServlet</servlet-class>
+    </servlet>
+	
+	<servlet-mapping>
+        <servlet-name>CacheTest</servlet-name>
+        <url-pattern>/cache</url-pattern>
+    </servlet-mapping>
 	
 	<context-param>
 		<param-name>sname</param-name>

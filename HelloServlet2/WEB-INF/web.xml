@@ -106,4 +106,45 @@
         <servlet-name>other</servlet-name>
         <url-pattern>/other</url-pattern>
     </servlet-mapping>
+	
+	
+	<servlet>
+        <servlet-name>chinese</servlet-name>
+        <servlet-class>ChineseServlet</servlet-class>
+    </servlet>
+	
+	<servlet-mapping>
+        <servlet-name>chinese</servlet-name>
+        <url-pattern>/chinese</url-pattern>
+    </servlet-mapping>
+	
+	<servlet>
+        <servlet-name>buffer</servlet-name>
+        <servlet-class>BufferServlet</servlet-class>
+    </servlet>
+	
+	<servlet-mapping>
+        <servlet-name>buffer</servlet-name>
+        <url-pattern>/buffer</url-pattern>
+    </servlet-mapping>
+	
+	<servlet>
+        <servlet-name>attach</servlet-name>
+        <servlet-class>AttachmentServlet</servlet-class>
+    </servlet>
+	
+	<servlet-mapping>
+        <servlet-name>attach</servlet-name>
+        <url-pattern>/attach</url-pattern>
+    </servlet-mapping>
+	
+	<servlet>
+        <servlet-name>count</servlet-name>
+        <servlet-class>CountServlet</servlet-class>
+    </servlet>
+	
+	<servlet-mapping>
+        <servlet-name>count</servlet-name>
+        <url-pattern>/count</url-pattern>
+    </servlet-mapping>
 </web-app>
